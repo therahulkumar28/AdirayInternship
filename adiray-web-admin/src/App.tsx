@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import CreateBlog from "./component/CreateBlogPost"
-import UpdateBlog from "./component/UpdateBlogPost"
-import Blog from "./component/Blog"
-import Blogpost from "./component/BlogPost"
-import Navbar from "./component/Navbar"
+import CreateBlog from "./pages/CreateBlogPost"
+import UpdateBlog from "./pages/UpdateBlogPost"
+import Blog from "./pages/Blog"
+import Blogpost from "./pages/BlogPost"
+import Navbar from "./components/Navbar"
 
 
 function App() {
